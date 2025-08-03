@@ -1,5 +1,5 @@
 version: 0.2
-
+# code biuld instructions
 phases:
   install:
     runtime-versions:
@@ -20,4 +20,6 @@ phases:
 artifacts:
   files:
     - target/nextwork-web-project.war
+    - appspec.yml
+    - scripts/**/*
   discard-paths: no
