@@ -5,6 +5,7 @@ os: linux
 files:
   - source: /target/nextwork-web-project.war
     destination: /usr/share/tomcat/webapps/
+    overwrite: true
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
